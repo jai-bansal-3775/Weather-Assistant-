@@ -63,11 +63,9 @@ def get_weather(api_key, city):
 
 # Replace 'your_api_key' with your actual OpenWeatherMap API key
 api_key = 'your_api_key'
-# api_key = "fc8cbbhgvgvcgjbvfgnhbhvhjjgfgbfdymhj503cb009df067f29d82dfa7fb618"
 while True:
     print("Enter city")
     city = speechrecognition()
-
     result = get_weather(api_key, city)
 
     if result:
